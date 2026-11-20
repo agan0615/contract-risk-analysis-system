@@ -596,7 +596,5 @@ ul,ol { padding: 0; margin: 0; }
 .project-outcome .report-demo { min-width: 0; }
 .report-demo { position: relative; overflow: hidden; border-radius: 14px; background: var(--paper); box-shadow: 0 12px 30px oklch(0.3 0.03 82 / .06); }
 .report-video { display: block; width: 100%; height: auto; aspect-ratio: 1920 / 1230; background: var(--paper); }
-.video-error { padding: 12px 18px; font-size: 13px; }
-.video-error a { text-decoration: underline; text-underline-offset: 4px; }
 .project-report { max-width: 960px; }
 

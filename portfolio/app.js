@@ -162,10 +162,6 @@
       else userPaused = true;
     });
     video.addEventListener('play', () => { userPaused = false; });
-    const showError = () => { video.closest('.report-demo').querySelector('.video-error').hidden = false; };
-    video.addEventListener('error', showError);
-    video.querySelector('source')?.addEventListener('error', showError);
-    if (video.error || video.networkState === HTMLMediaElement.NETWORK_NO_SOURCE) showError();
     if ('IntersectionObserver' in window) {
       const observer = new IntersectionObserver(entries => {
         inView = entries[0].intersectionRatio >= 0.35;
